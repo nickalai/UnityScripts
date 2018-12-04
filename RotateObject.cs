@@ -2,8 +2,10 @@
 Name: Nick Lai
 Student ID#: 2282417
 Chapman email: lai137@mail.chapman.edu
-Course Number and Section: vrSensory ~ Dance Module
-Contains logic for the rotation of the disco ball
+
+Contains logic for the rotation of a GameObject
+
+To use this script, drag and drop it onto the object you wish to rotate. Tweak the rotationSpeed variable to your liking.
 */
 
 using System.Collections;
