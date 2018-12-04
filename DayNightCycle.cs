@@ -4,6 +4,10 @@ Student ID#: 2282417
 Chapman email: lai137@mail.chapman.edu
 
 Contains logic for a day/night cycle in the world. Also toggles any GameObjects that will want to be turned on at night (i.e. spotlights)
+
+To use the script, attach it to the Main Camera of your scene (be it an actual camera or the camera of the FPSController) and assign a
+Text Object and a Directional Light to both "sun" and "SunTransform". Then, tinker with the speed variable to how you see fit. To assign
+GameObjects to turn on and off when it reaches night time, drag and drop the objects into the "lanterns" array.
 */
 
 using System.Collections;
