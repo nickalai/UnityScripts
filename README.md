@@ -9,8 +9,8 @@ Each script also has in line comments describing what odd parts of the code do i
 
 
 ## Table of Contents
-[Day and Night Cycle](DayNightCycle.cs)
+[Day and Night Cycle](Source%20Files/DayNightCycle.cs)
 
-[Object Rotator](RotateObject.cs)
+[Object Rotator](Source%20Files/RotateObject.cs)
 
 
