@@ -13,4 +13,4 @@ Each script also has in line comments describing what odd parts of the code do i
 
 [Object Rotator](Source%20Files/RotateObject.cs)
 
-[Shooting (Raycasts)](Source%20Files/Gun.cs)
+[Shooting (Raycasts/Hitscan)](Source%20Files/Gun.cs)
