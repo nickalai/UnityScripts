@@ -41,6 +41,7 @@ public class DayNightCycle : MonoBehaviour
         ChangeTime();
     }
 
+    //handles all logic with a day/night cycle
     public void ChangeTime()
     {
         //updates the time
@@ -85,12 +86,14 @@ public class DayNightCycle : MonoBehaviour
         }
     }
     
+    //toggles on all objects in the GameObject[] on
     public void ToggleAllObjectsOn()
     {
    	for(int i = 0; i < lanterns.Length; i++)
                 lanterns[i].SetActive(true);
     }
     
+    //toggles all objects in the GameObject[] off
     public void ToggleAllObjectsOff()
     {
     	for (int i = 0; i < lanterns.Length; i++)
