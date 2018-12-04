@@ -2,7 +2,7 @@
 Name: Nick Lai
 Email: lai137@mail.chapman.edu/nicklai802@gmail.com
 
-Contains logic for a gun. (Casting raycasts from the center of the screen)
+Contains logic for shoot a hitscan weapon. (Casting raycasts from the center of the screen)
 
 To use the script, attach it to the camera of an FPSController
 
