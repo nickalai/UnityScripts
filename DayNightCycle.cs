@@ -73,14 +73,24 @@ public class DayNightCycle : MonoBehaviour
         //checks if it is dark out and toggles all objects that must be toggled when this happens.
         if (time > 35000 || time < 1000)
         {
-            for(int i = 0; i < lanterns.Length; i++)
-                lanterns[i].SetActive(true);
+            ToggleAllObjectsOn();
         }
 
         else
         {
-            for (int i = 0; i < lanterns.Length; i++)
-                lanterns[i].SetActive(false);
+            ToggleAllObjectsOff();
         }
+    }
+    
+    public void ToggleAllObjectsOn()
+    {
+   	for(int i = 0; i < lanterns.Length; i++)
+                lanterns[i].SetActive(true);
+    }
+    
+    public void ToggleAllObjectsOff()
+    {
+    	for (int i = 0; i < lanterns.Length; i++)
+                lanterns[i].SetActive(false);
     }
 }
