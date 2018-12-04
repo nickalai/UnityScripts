@@ -23,7 +23,7 @@ public class DayNightCycle : MonoBehaviour
     public TimeSpan currentTime;
     public Transform SunTransform;
     public Light sun;
-    public Text timeText;
+    //public Text timeText; include if you wish to display time to the screen, currently on a weird 16.5 hr daycycle time
     public int days;
 
     public float intensity;
@@ -53,12 +53,14 @@ public class DayNightCycle : MonoBehaviour
             time = 0;
         }
 	
-        //displays the time to the screen
+	/*
+        //calculates and displays the time to the screen
         currentTime = TimeSpan.FromSeconds(time);
         string[] tempTime = currentTime.ToString().Split(":"[0]);
 
         timeText.text = tempTime[0] + ":" + tempTime[1];
-
+	*/
+	
         //moves the sun in the world
         SunTransform.rotation = Quaternion.Euler(new Vector3((time - 2160) / 64000 * 360, 0, 0));
 	
