@@ -16,10 +16,10 @@ public class RotateObject : MonoBehaviour
 {
     public int rotationSpeed = 25;
 	
-	// Update is called once per frame
-	void Update ()
+    // Update is called once per frame
+    void Update ()
     {
         //rotates the object
         transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed, Space.World);
-	}
+    }
 }
