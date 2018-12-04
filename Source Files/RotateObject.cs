@@ -1,6 +1,6 @@
 ﻿/*
 Name: Nick Lai
-Chapman email: lai137@mail.chapman.edu/nicklai802@gmail.com
+Email: lai137@mail.chapman.edu/nicklai802@gmail.com
 
 Contains logic for the rotation of a GameObject
 
