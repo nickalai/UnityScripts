@@ -4,9 +4,9 @@ Email: lai137@mail.chapman.edu/nicklai802@gmail.com
 
 Contains logic for a day/night cycle in the world. Also toggles any GameObjects that will want to be turned on at night (i.e. spotlights)
 
-To use the script, create a DayNightManager empty GameObject and attach the script to it. Then, assign a Text Object and a Directional 
-Light to both "sun" and "SunTransform". Finally , tinker with the speed variable to how you see fit. To assign GameObjects to turn on
-and off when it reaches night time, drag and drop the objects into the "lanterns" array.
+To use the script, create a DayNightManager empty GameObject and attach the script to it. Then, assign a Text Object(optional) and a 
+Directional Light to both "sun" and "SunTransform". Finally , tinker with the speed variable to how you see fit. To assign GameObjects
+to turn on and off when it reaches night time, drag and drop the objects into the "lanterns" array.
 
 Script referenced from the following YouTube video: https://www.youtube.com/watch?v=PSEZgB2x7ds
 */
