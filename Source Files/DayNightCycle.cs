@@ -1,7 +1,6 @@
 ﻿/*
 Name: Nick Lai
-Student ID#: 2282417
-Chapman email: lai137@mail.chapman.edu
+Email: lai137@mail.chapman.edu/nicklai802@gmail.com
 
 Contains logic for a day/night cycle in the world. Also toggles any GameObjects that will want to be turned on at night (i.e. spotlights)
 
