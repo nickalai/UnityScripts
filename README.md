@@ -4,4 +4,5 @@ This is a repository of varous scripts that I have written over the period of my
 
 ## Setup
 
-Each script has a description in the header comment on what it does and how to use it in Unity, so refer to there :) Each script also has in line comments describing what odd parts of the code do in a more general way.
+Each script has a description in the header comment on what it does and how to use it in Unity, so refer to there :) 
+Each script also has in line comments describing what odd parts of the code do in a more general way.
