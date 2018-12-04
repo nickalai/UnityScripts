@@ -8,6 +8,8 @@ Contains logic for a day/night cycle in the world. Also toggles any GameObjects 
 To use the script, attach it to the Main Camera of your scene (be it an actual camera or the camera of the FPSController) and assign a
 Text Object and a Directional Light to both "sun" and "SunTransform". Then, tinker with the speed variable to how you see fit. To assign
 GameObjects to turn on and off when it reaches night time, drag and drop the objects into the "lanterns" array.
+
+Script referenced from the following YouTube video: https://www.youtube.com/watch?v=PSEZgB2x7ds
 */
 
 using System.Collections;
