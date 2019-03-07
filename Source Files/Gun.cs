@@ -26,7 +26,7 @@ public class Gun : MonoBehaviour
         {
             Shoot();
         }
-	  }
+    }
 
     //Logic for using raycasts to detect a target
     void Shoot()
